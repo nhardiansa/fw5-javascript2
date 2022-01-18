@@ -2,6 +2,12 @@ const values = [2, 25, 4, 14, 17, 30, 8]
 
 const seleksiNilai = (limit1, limit2, data) => {
 
+  // validator pengecekan tipe data
+  if (typeof limit1 !== "number" || typeof limit2 !== 'number' || !Array.isArray(data)) {
+    console.log('Data tidak valid');
+    return 0;
+  }
+
   // validator jika nilai awal lebih besar dari nilai akhir
   if (limit1 > limit2) {
     console.log('Nilai akhir harus lebih besar dari nilai awal');
@@ -23,4 +29,4 @@ const seleksiNilai = (limit1, limit2, data) => {
   console.log(final);
 }
 
-seleksiNilai(15, 2, values)
+seleksiNilai(5, 20, values)
