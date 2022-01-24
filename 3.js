@@ -21,7 +21,7 @@ const seleksiNilai = (limit1, limit2, data) => {
   }
 
   // mengambil data yang lebih dari nilai awal dan yg kurang dari nilai akhir
-  const result = data.filter(el => el >= limit1 && el <= limit2)
+  const result = data.filter(el => el > limit1 && el < limit2)
 
   // melakukan sortir terhadap array yang telah didapat
   const final = result.sort((a, b) => a - b)
@@ -29,4 +29,4 @@ const seleksiNilai = (limit1, limit2, data) => {
   console.log(final);
 }
 
-seleksiNilai(5, 20, values)
+seleksiNilai(5, 20, [2, 25, 4, 14, 17, 30, 8])
