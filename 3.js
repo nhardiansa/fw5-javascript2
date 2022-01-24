@@ -26,7 +26,9 @@ const seleksiNilai = (limit1, limit2, data) => {
   // melakukan sortir terhadap array yang telah didapat
   const final = result.sort((a, b) => a - b)
 
+  // menampilkan hasil dari seluruh proses
   console.log(final);
 }
 
-seleksiNilai(5, 20, [2, 25, 4, 14, 17, 30, 8])
+// melakukan pemanggilan terhaap function seleksiNilai
+seleksiNilai(5, 20, values)

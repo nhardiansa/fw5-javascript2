@@ -11,6 +11,7 @@ const searchName = (keyword, limit, cb) => {
   // membatasi panjang array yg sesuai dengan limit
   const result = filteredNames.slice(0, limit)
 
+  // melakukan pemanggilan terhadap function callback
   cb(result)
 }
 

@@ -6,8 +6,8 @@
 const bulan = ['March', 'Jan', 'Feb', 'Dec'];
 const angka = [2, 3, 5, 3, 6, 6, 4]
 
-console.log(bulan.pop()); // "Feb"
-console.log(angka.pop()); // 4
+// console.log(bulan.pop()); // "Feb"
+// console.log(angka.pop()); // 4
 
 
 /*=============== 2. isArray() =============== */
@@ -18,8 +18,8 @@ console.log(angka.pop()); // 4
 const bulan2 = ['March', 'Jan', 'Feb', 'Dec']
 const kata3 = "Bulan Purnama"
 
-console.log(Array.isArray(bulan2)); // true
-console.log(Array.isArray(kata3)); // false
+// console.log(Array.isArray(bulan2)); // true
+// console.log(Array.isArray(kata3)); // false
 
 /*=============== 3. includes() =============== */
 
@@ -29,8 +29,8 @@ console.log(Array.isArray(kata3)); // false
 const bulan3 = ['March', 'Jan', 'Feb', 'Dec'];
 const kalimat = "ayam makan jagung"
 
-console.log( bulan3.includes('Dec') ); //true
-console.log( kalimat.includes("api") ); //false
+// console.log( bulan3.includes('Dec') ); //true
+// console.log( kalimat.includes("api") ); //false
 
 /*=============== 4. join() =============== */
 
@@ -39,8 +39,8 @@ console.log( kalimat.includes("api") ); //false
 // contoh:
 const bulan4 = ['March', 'Jan', 'Feb', 'Dec'];
 
-console.log( bulan4.join() ); // "March,Jan,Feb,Dec"
-console.log( bulan4.join('') ); // "DecFebJanMarch"
+// console.log( bulan4.join() ); // "March,Jan,Feb,Dec"
+// console.log( bulan4.join('') ); // "DecFebJanMarch"
 
 
 /*=============== 5. lastIndexOf() =============== */
@@ -51,9 +51,9 @@ console.log( bulan4.join('') ); // "DecFebJanMarch"
 const bulan5 = ['March', 'Jan', 'Feb', 'Dec'];
 const angka3 = [2, 3, 5, 3, 6, 6, 4]
 
-console.log( bulan5.lastIndexOf('Feb') ); // 2
-console.log( angka3.lastIndexOf(3) ); // 3
-console.log( angka3.lastIndexOf(10) ); // -1
+// console.log( bulan5.lastIndexOf('Feb') ); // 2
+// console.log( angka3.lastIndexOf(3) ); // 3
+// console.log( angka3.lastIndexOf(10) ); // -1
 
 
 /*=============== 6. toString =============== */
@@ -64,8 +64,8 @@ console.log( angka3.lastIndexOf(10) ); // -1
 const bulan6 = ['March', 'Jan', 'Feb', 'Dec'];
 const angka4 = [2, 3, 5, 3, 6, 6, 4]
 
-console.log( bulan6.toString() ); // "March,Jan,Feb,Dec"
-console.log( angka4.toString() ); // "2,3,5,3,6,6,4"
+// console.log( bulan6.toString() ); // "March,Jan,Feb,Dec"
+// console.log( angka4.toString() ); // "2,3,5,3,6,6,4"
 
 
 /*=============== 7. shift() =============== */
@@ -75,8 +75,8 @@ console.log( angka4.toString() ); // "2,3,5,3,6,6,4"
 // contoh:
 const array1 = [1, 2, 3];
 
-console.log( array1.shift() ); // 1
-console.log( array1 ); // [2, 3]
+// console.log( array1.shift() ); // 1
+// console.log( array1 ); // [2, 3]
 
 
 /*=============== 8. unshift =============== */
@@ -86,8 +86,8 @@ console.log( array1 ); // [2, 3]
 // contoh:
 const array2 = [1, 2, 3];
 
-console.log( array2.unshift(5) ); // 4
-console.log( array2 ); // [5, 1, 2, 3]
+// console.log( array2.unshift(5) ); // 4
+// console.log( array2 ); // [5, 1, 2, 3]
 
 
 /*=============== 9. trim() =============== */
@@ -97,7 +97,7 @@ console.log( array2 ); // [5, 1, 2, 3]
 // contoh:
 const kata1 = "      Makan ayam di KFC       "
 
-console.log( kata1.trim() ); // Makan ayam di KFC
+// console.log( kata1.trim() ); // Makan ayam di KFC
 
 
 /*=============== 10. toUpperCase() =============== */
@@ -107,4 +107,4 @@ console.log( kata1.trim() ); // Makan ayam di KFC
 // contoh:
 const kata2 = "Makan ayam di KFC"
 
-console.log( kata2.toUpperCase() );
+// console.log( kata2.toUpperCase() );
